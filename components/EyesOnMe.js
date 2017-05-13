@@ -19,7 +19,7 @@ class EyesOnMe extends Component {
   render() {
     return (
       <form>
-        <button onFocus={() => this.focusHandler()} onBlur={() => this.blurHandler()} />
+        <button onFocus={this.focusHandler} onBlur={this.blurHandler} />
       </form>
     )
   }
